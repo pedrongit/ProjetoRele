@@ -7,6 +7,8 @@
   #define Vref 5
   #define Divisor 2.61
 //---------------------------------------------------------------------------
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+//
 
 float medicao(const uint8_t);
 void printlcd(int, int , float, int);
@@ -45,5 +47,5 @@ float medicao(const uint8_t pino){
 }
 
 void printlcd(int coluna, int linha, float medicao, int bateria){
-  lc
+  
 }
